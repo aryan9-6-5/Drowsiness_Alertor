@@ -71,7 +71,7 @@ python main.py
 ```
 ---
 
-##  v1 — Major Upgrades & Improvements
+##  v1 — Future Scope & Improvements
 
 | Feature                                | Description                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------|
