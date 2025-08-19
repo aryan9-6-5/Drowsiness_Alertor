@@ -48,15 +48,27 @@ A real-time driver drowsiness detection system built using a **custom CNN model 
 
 ##  How to Run
 
-### 1. Install dependencies
-```bash
-pip install -r requirements.txt 
-```
-### 2. Run the Streamlit app
-```bash
-streamlit run app.py
-```
+### 1. Create and Activate Virtual Environment
 
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Train the Model
+```bash
+python inspect_data.py
+python train_model.py
+```
+Output: models/drowsiness_cnn.h5
+
+### 4. Run the Real-Time Drowsiness Detection App
+```bash
+python main.py
+```
 ---
 
 ##  v1 — Major Upgrades & Improvements
